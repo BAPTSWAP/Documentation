@@ -60,8 +60,10 @@
 
 ## Governance
 
-* [Page 1](governance/page-1.md)
+* [Tokenomics](governance/tokenomics/README.md)
+  * [Governance](governance/tokenomics/governance.md)
 
 ## Legal Disclaimers
 
 * [Terms of Use](legal-disclaimers/terms-of-use.md)
+* [Legal Disclaimer](legal-disclaimers/legal-disclaimer.md)
