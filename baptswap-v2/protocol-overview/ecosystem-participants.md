@@ -1,6 +1,6 @@
 # Ecosystem Participants
 
-![](https://docs.uniswap.org/assets/images/participants-a3e150f3c98a0b402c2063de3e160f2e.jpg)
+![Graphics are referenced from Uniswap.](https://docs.uniswap.org/assets/images/participants-a3e150f3c98a0b402c2063de3e160f2e.jpg)
 
 The Baptswap ecosystem is primarily comprised of three types of users: liquidity providers, traders, and developers. Liquidity providers are incentivized to contribute tokens to common liquidity pools. Traders can swap these tokens for one another for a fixed [0.90% fee](../advanced-topics/fees.md) (which goes to liquidity providers and the Baptswap Treasury). Developers can integrate directly with Baptswap smart contracts to power new and exciting interactions with tokens, trading interfaces, retail experiences, and more.
 
