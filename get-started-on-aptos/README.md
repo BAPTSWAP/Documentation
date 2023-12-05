@@ -8,11 +8,19 @@ Using anything new can be a bit of a challenge. Don't worry though, we've create
 
 Follow these guides to get everything set up to use Baptswap, or feel free to jump to the guide you need if you've been doing okay but lost your way.
 
-[Create an Aptos Wallet](create-a-wallet.md)
 
-[Get Aptos Coins](get-aptos-coins.md)
 
-[Connect Your Wallet to BAPTSWAP](connect-your-wallet-to-baptswap.md)
+{% content-ref url="create-a-wallet.md" %}
+[create-a-wallet.md](create-a-wallet.md)
+{% endcontent-ref %}
+
+{% content-ref url="get-aptos-coins.md" %}
+[get-aptos-coins.md](get-aptos-coins.md)
+{% endcontent-ref %}
+
+{% content-ref url="connect-your-wallet-to-baptswap.md" %}
+[connect-your-wallet-to-baptswap.md](connect-your-wallet-to-baptswap.md)
+{% endcontent-ref %}
 
 You can find visual guides in our YouTube playlist:
 
