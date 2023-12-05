@@ -55,7 +55,7 @@ To become tradable on the DEX, the token listed will need to have LP added to th
 
 ## Enjoy Your New Environment!
 
-Now that your token is live for trading on Baptswap, where both you and your holders can enjoy a whole new experience, never seen before on Aptos!, with fee-on-swap support!
+Now that your token is live for trading on Baptswap, where both you and your holders can enjoy a whole new experience, with fee-on-transfer support, never seen before on Aptos!
 
 {% hint style="info" %}
 Tokens with LP on multiple exchanges will only have tax supported on Baptswap, meaning that the tokens will still be zero fee tokens on the other DEXes.
@@ -67,4 +67,4 @@ By doing this, it can reduce the amount of fees your team can collect from the t
 
 Need help to launch or migrate to Baptswap? Reach out here 👉
 
-Apply on [Twitter](https://x.com/baptswap) or [Telegram](https://t.me/baptswap).
+Reach out on [Twitter](https://x.com/baptswap) or [Telegram](https://t.me/baptswap).
