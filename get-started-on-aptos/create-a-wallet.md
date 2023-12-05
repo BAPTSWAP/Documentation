@@ -17,7 +17,7 @@ To get started on your BAPTSWAP journey on Aptos, the first thing you'll need is
 ## Smartphone/Mobile or Desktop wallet?
 
 {% hint style="warning" %}
-At the time of writing, there are a limited number of mobile wallets with Aptos support. Chefs will include more wallets in the tutorial when they are available.
+At the time of writing, there are a limited number of mobile wallets for Aptos. The Protocol has added support for a various amount of them to to work with Baptswap. We will include more wallets in the tutorial when they are available.
 
 **We recommend using** [**desktop wallets**](create-a-wallet.md#desktop-web-browser-wallets) **until more mobile wallets are ready.**
 {% endhint %}
@@ -29,7 +29,7 @@ Mobile device wallets and desktop-based wallets have different strengths and wea
 |                                   | Mobile | Desktop |
 | --------------------------------- | ------ | ------- |
 | Use anywhere                      | ✅      | ➖       |
-| Easy to use                       | ✅      | ➖       |
+| Easy to use                       | ✅      | ✅       |
 | More secure                       | ➖      | ✅       |
 | Accessibility friendly            | ➖      | ✅       |
 | Damage/loss/theft resistant       | ➖      | ✅       |
@@ -43,7 +43,7 @@ Smartphone/Mobile wallets allow you to access your crypto almost anywhere. Walle
 
 This comparison table gives an overview of the most popular mobile wallets used with BAPTSWAP.
 
-<table><thead><tr><th width="269"></th><th width="166">SafePal</th><th width="156">Trust Wallet</th><th>Blocto</th></tr></thead><tbody><tr><td>Aptos Chain support</td><td>✅</td><td>✅</td><td>✅</td></tr><tr><td>Built-in DApp browser</td><td>✅</td><td>✅</td><td>✅</td></tr><tr><td>Hardware wallet compatible</td><td>✅ (Only SafePal)</td><td>➖</td><td>➖</td></tr><tr><td>Open source (auditability)</td><td>➖</td><td>✅</td><td>➖</td></tr></tbody></table>
+<table><thead><tr><th width="269"></th><th width="166">Petra</th><th width="156">Trust Wallet</th></tr></thead><tbody><tr><td>Aptos Chain support</td><td>✅</td><td>✅</td></tr><tr><td>Built-in DApp browser</td><td>✅</td><td>✅</td></tr><tr><td>Hardware wallet compatible</td><td>➖</td><td>➖</td></tr><tr><td>Open source (auditability)</td><td>✅</td><td>✅</td></tr></tbody></table>
 
 You can find more in-depth information about each wallet below, as well as download links and installation guides.
 
@@ -51,7 +51,7 @@ You can find more in-depth information about each wallet below, as well as downl
 {% tab title="Petra" %}
 <figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
-Petra wallet is the official extension that lets you explore Aptos in your browser.
+Petra wallet is the **official extension** that lets you explore Aptos in both mobile and browser.
 
 **Highlights:**
 
@@ -63,33 +63,12 @@ Petra wallet is the official extension that lets you explore Aptos in your brows
 
 **Note:**
 
-* Desktop only
+* Desktop and Mobile Support
 * Only supports Aptos chains
 
 [**Download Petra Wallet**](https://petra.app/)
 
 [**Petra Wallet Setup Guide**](https://petra.app/docs/use)
-{% endtab %}
-
-{% tab title="SafePal" %}
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>SafePal is available as both a software and hardware wallet. The wallet is easy to install and create, and comes ready to support Aptos, BEP2 (BNB Beacon Chain)<strong>,</strong> BEP20 (BNB Smart Chain) right away.</p></figcaption></figure>
-
-**Pros:**
-
-* Easily switch between several crypto networks
-* Has the option for Google Authenticator built in
-* Supports a large number of languages
-* Setup process is very simple
-* Is available as both a software and hardware wallet (work together)
-
-**Cons:**
-
-* Isn't fully open source
-* Does not give user notifications
-* Does not enforce strong security during initial setup and wallet creation
-
-​[**Download SafePal**](https://safepal.io/download) (Automatically detects device) \
-[**SafePal Setup Guide for Aptos**](https://safepalsupport.zendesk.com/hc/en-us/articles/10061372532891-How-to-add-send-Aptos-mainnet-coin-APT-with-SafePal-Software-Wallet)
 {% endtab %}
 
 {% tab title="Trust Wallet" %}
@@ -111,6 +90,43 @@ Trust Wallet is a popular wallet for smart devices. It supports DApps, NFT colle
 
 [**Download Trust Wallet**](https://trustwallet.com) (Automatically detects device)\
 [**Trust Wallet Setup Guide for Aptos**](https://community.trustwallet.com/t/trust-wallet-adds-native-support-for-aptos-apt/575701)
+{% endtab %}
+
+{% tab title="Pontem" %}
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+
+Pontem Wallet is an Aptos Chain wallet that allows you to store, send, receive tokens, and connect to dApps on the Aptos ecosystem.
+
+**Highlights:**
+
+* Mobile version coming soon
+* Easy to use
+* Supports multiple accounts
+* Built-in NFT support
+* Supports Aptos testnet
+
+[**Download Pontem Wallet**](https://pontem.network/pontem-wallet)
+{% endtab %}
+
+{% tab title="SafePal" %}
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>SafePal is available as both a software and hardware wallet. The wallet is easy to install and create, and comes ready to support Aptos, BEP2 (BNB Beacon Chain)<strong>,</strong> BEP20 (BNB Smart Chain) right away.</p></figcaption></figure>
+
+**Pros:**
+
+* Easily switch between several crypto networks
+* Has the option for Google Authenticator built in
+* Supports a large number of languages
+* Setup process is very simple
+* Is available as both a software and hardware wallet (work together)
+
+**Cons:**
+
+* Isn't fully open source
+* Does not give user notifications
+* Does not enforce strong security during initial setup and wallet creation
+
+​[**Download SafePal**](https://safepal.io/download) (Automatically detects device) \
+[**SafePal Setup Guide for Aptos**](https://safepalsupport.zendesk.com/hc/en-us/articles/10061372532891-How-to-add-send-Aptos-mainnet-coin-APT-with-SafePal-Software-Wallet)
 {% endtab %}
 
 {% tab title="Blocto" %}
