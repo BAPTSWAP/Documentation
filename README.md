@@ -10,9 +10,9 @@ description: Docs in the making, not final version
 
 The Baptswap protocol is a peer-to-peer system, more commonly known as a Decentralized Exchange (DEX), designed for exchanging cryptocurrencies on the [Aptos Network](https://aptosfoundation.org/). Baptswap is designed to be secure, and function without any trusted intermediaries who may selectively restrict access.
 
-Baptswap is the only protocol operating on MOVE-based blockchains allowing token owners to add fee-on-transfer solutions to their token swaps. Baptswap operates on the Aptos Network, meaning Aptos is the only MOVE-based blockchain to offer such “EVM-like” utility, while maintaining the flexiblity and scalability of the MOVE-language.&#x20;
+Baptswap is the only protocol operating on MOVE-based blockchains allowing token owners to add fee-on-transfer solutions to their token swaps. Baptswap operates on the Aptos Network, meaning Aptos is the only MOVE-based blockchain to offer such “EVM-like” features, while maintaining the flexiblity and scalability of the MOVE-language.&#x20;
 
-There are currently two versions of the Baptswap protocol. V1 and V2 are open source, and are viewable [here](https://github.com/BAPTSWAP). Each version of Baptswap, once deployed, will function in perpetuity, with 100% uptime, provided the continued existence of the Aptos Network.
+There are currently two versions of the Baptswap protocol. V1 and V2 are both open source, and are viewable [here](https://github.com/BAPTSWAP). V1 support has been discontinued with the upgrades to V2. All future upgrades will function in perpetuity alongside the V2, with 100% uptime, provided the continued existence of the Aptos Network.
 
 ### How does the Baptswap protocol compare to a typical market?[​](https://docs.uniswap.org/concepts/uniswap-protocol#how-does-the-uniswap-protocol-compare-to-a-typical-market) <a href="#how-does-the-uniswap-protocol-compare-to-a-typical-market" id="how-does-the-uniswap-protocol-compare-to-a-typical-market"></a>
 

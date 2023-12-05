@@ -15,7 +15,7 @@
 
 ## **Connect to Aptos Mainnet**
 
-Aptos has multiple networks, including multiple devnets and testnets. But to use BAPTSWAP on Aptos Chain, please be sure your wallet is connected to **Aptos Mainnet**.&#x20;
+Aptos has multiple networks, including multiple devnets and testnets. But to use Baptswap on Aptos Chain, please be sure your wallet is connected to **Aptos Mainnet**.&#x20;
 
 Here's how:
 
