@@ -32,11 +32,12 @@ Slippage tolerances establish a margin of change acceptable to the user beyond p
 
 A comparable situation in a traditional market would be a market-buy order executed after a delay. One can know the expected price of a market-buy order when submitted, but much can change in the time between submission and execution.
 
-> **Note:** Some tokens traded on Baptswap, may have additional taxes added to their individual token through Baptswap's unique Fee-on-Transfer support. If trading one asset for another, where one or two of the tokens have additional fees, the transaction may fail if the slippage is set lower than the total % of the following:\
+> **Note:** Some tokens traded on Baptswap, may have additional taxes added to their individual token through Baptswap's unique Fee-on-Transfer support. If trading one asset for another, where one or two of the tokens have additional fees, the transaction may fail if the slippage is set lower than the total percentage of the following added together:\
 > \
 > Price Impact %\
 > Individual Token Fees in % for X token\
-> Individual Token Fees in % for Y token
+> Individual Token Fees in % for Y token\
+> Network Gas Fees
 
 ### Safety Checks[​](https://docs.uniswap.org/concepts/protocol/swaps#safety-checks) <a href="#safety-checks" id="safety-checks"></a>
 

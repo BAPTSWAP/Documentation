@@ -1,7 +1,5 @@
 # Swaps
 
-![](https://docs.uniswap.org/assets/images/trade-b19a05be2c43a62708ab498766dc6d13.jpg)
-
 ## Introduction
 
 Token swaps in Baptswap are a simple way to trade one token for another.
