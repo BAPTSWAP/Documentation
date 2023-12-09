@@ -6,62 +6,70 @@ description: How LP providing works
 
 <figure><img src="../../.gitbook/assets/LiqPools.png" alt=""><figcaption></figcaption></figure>
 
-Liquidity pool tokens (sometimes known as liquidity provider tokens) are given to users who provide liquidity in liquidity pools. These tokens act as a receipt, allowing you to claim your original stake and interest earned.
+## Introduction
 
-## LP Tokens
+Liquidity pools are essential components of the Baptswap platform, allowing users to provide liquidity and earn rewards. This document explains the mechanics of Liquidity Pools and the associated benefits and risks.
 
-As an example, if you deposited **BAPT** and **APT** into a Liquidity Pool, you'd receive **BAPT-APT LP** tokens.
+## LP Tokens (Liquidity Provider Tokens)
 
-The number of LP tokens you receive represents your portion of the BAPT-APT Liquidity Pool.&#x20;
+### Definition and Function
 
-You can also redeem your funds at any time by removing your liquidity.
+LP tokens are issued to users who deposit assets into liquidity pools. They serve as a receipt, representing the user's share in the pool and entitling them to a portion of the trading fees generated.
 
-## Liquidity Providers earn trading fees
+### Example
 
-Providing liquidity gives you a reward in the form of trading fees when people use your liquidity pool.&#x20;
+> If you deposit BAPT and APT into a pool, you receive BAPT-APT LP tokens, which represent your share in the BAPT-APT Liquidity Pool. These tokens can be redeemed to withdraw your original stake and earned interest.
 
-Whenever someone trades on Baptswap, the trader pays a 0.90% fee, **of which 0.30%** is added to the Liquidity Pool of the swap pair they traded on.
+## Earning from Trading Fees
 
-For example:
+### How it Works
 
-* There are 10 LP tokens representing 10 BAPT and 10 APT tokens.
-* 1 LP token = 1 BAPT + 1 APT
-* Someone trades 10 BAPT for 10 APT.
-* Someone else trades 10 BNB for 10 BAPT.
-* The BAPT/APT liquidity pool now has 10.030 BAPT and 10.030 APT.
-* Each LP token is now worth 1.00030 BAPT + 1.00030 APT.
+As a liquidity provider, you earn a portion of the trading fees generated from your pool.
 
-## "The Best Way to Earn on Baptswap"
+In Baptswap, a 0.90% trading fee is charged on swaps, with 0.30% of that fee added to the liquidity pool involved in the trade.
 
-Providing LP to popular pairs is proven to be one of the methods with the highest APR. Like explained above, LP providers will earn a portion of the trading volume from the trading fees. But on BAPTSWAP, there are even more juice to it.
+### Example
 
-Since tokens with liquidity on Baptswap have the option to implement LP Fees to their tokens through Baptswap's unique Fee-on-Transfer solution, LP providers can earn even more, in addition to the 0.3% on each trade!
+> Consider a pool with 10 LP tokens representing 10 BAPT and 10 APT each.
+>
+> * A trade occurs, and the pool's assets grow to 10.030 BAPT and 10.030 APT.
+> * Each LP token's value increases correspondingly.
 
-{% hint style="info" %}
-Individual tokens are allowed to add up to 15% going to the LP from the token's trading volume. These fees gets distributed among all providers, just like the 0.3% exchange fee!
+## Enhanced Earnings on Baptswap
 
-Tokens with LP fees implemented can reach up to 76.5x greater value to provide LP on these tokens, compared to other exchanges!
+### Unique Fee-on-Transfer Mechanism
+
+Baptswap allows tokens to implement LP Fees up to 15% of their trading volume, which is distributed among liquidity providers in addition to the standard 0.3% swap fee.
+
+This can significantly increase the potential rewards for providing liquidity on Baptswap compared to other exchanges.
+
+{% hint style="success" %}
+Compared to other AMMs on Aptos, providing liquidity on Baptswap can be up to 151.5 times more benefitial for providers
 {% endhint %}
 
-## Benefits for Providing LP
+## Benefits of Providing Liquidity
 
-Having LP on the exchange is necessary for it to be possible to trade between assets.
+### Importance for the Exchange
 
-You can only swap tokens on Baptswap if there is enough liquidity for those tokens. If nobody has added much liquidity for the token or tokens you want to swap, it will be difficult, expensive, or impossible to do so.
+Liquidity is vital for enabling asset swaps on Baptswap. Insufficient liquidity can make swaps difficult, expensive, or impossible.
 
-Providing liquidity will get you LP Tokens, which will earn you rewards in the form of trading fees for making sure there's always liquidity for the exchange to use. The higher the trading fees, the higher rewards you will earn!
+By providing liquidity, you facilitate trading and earn rewards from trading fees and potentially from Fee-on-Transfer taxes, if applicable.
 
-By Providing LP, the liquidity pool of the tokens gets thicker, making the assets more stable and sustainable from price impact.
+### Stability and Sustainability
 
-These are the things that LP providers will generate their APR from:
+A robust liquidity pool enhances asset stability and mitigates price impact during trading.
 
-* The asset being traded and collecting 0.3% from each trade of the pair.
-* If the traded token has taxes towards LP through Baptswap's unique Fee-on-Transfer solution, the trading volume will also allocate this towards all LP providers.
+### Earnings Sources for LP Providers
 
-## Impermanent Loss
+LP providers earn from:
+
+* The 0.3% trading fee from each pair trade.
+* Additional allocations from Fee-on-Transfer taxes, if implemented on the traded tokens.
+
+### Impermanent Loss
 
 {% hint style="danger" %}
-Providing liquidity is not without risk, as you may be exposed to impermanent loss.
+Providing liquidity comes with the risk of impermanent loss, which occurs when the price of your deposited assets changes compared to when you deposited them. This is an important consideration for all potential liquidity providers.
 {% endhint %}
 
 \

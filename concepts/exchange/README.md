@@ -4,47 +4,81 @@
 
 ## Introduction
 
-Swaps are the most common way of interacting with the Baptswap protocol. For end-users, swapping is straightforward: a user selects a token on the Aptos Network that they own and a token they would like to trade it for. Executing a swap sells the currently owned tokens for the proportional (1) amount of the tokens desired, minus the swap fee, which is awarded to liquidity providers (2). On tokens that have Fee-on-Transfer Tax turned on for their individual token, these Taxes are also subtracted from the final amount received when performing a swap (3). Swapping with the Baptswap protocol is a permissionless process.
+Baptswap facilitates seamless swaps on the Aptos Network, allowing users to trade tokens in a straightforward and permissionless manner. This guide explains the key aspects of swapping tokens using the Baptswap protocol.
 
-> **Note:** Using web interfaces (websites) to swap via the Baptswap protocol can introduce additional permission structures, and may result in different execution behavior compared to using the Baptswap protocol directly. To learn more about the differences between the protocol and a web interface, see What is Baptswap.
+## Understanding Swaps on Baptswap
 
-Swaps using the Baptswap protocol are different from traditional order book trades in that they are not executed against discrete orders on a first-in-first-out basis — rather, swaps execute against a passive pool of liquidity, with liquidity providers earning fees proportional to their capital committed
+### Basic Swap Mechanism
 
-### Price Impact[​](https://docs.uniswap.org/concepts/protocol/swaps#price-impact) <a href="#price-impact" id="price-impact"></a>
+* **Process**: Users select a token they own and a token they wish to acquire.
+* **Execution**: The swap sells owned tokens for the desired tokens, minus the swap fee (awarded to liquidity providers) and any Fee-on-Transfer Taxes, if applicable.
 
-In a traditional order-book market, a sizeable market-buy order may deplete the available liquidity of a prior limit-sell and continue to execute against a subsequent limit-sell order at a higher price. The result is the final execution price of the order is somewhere in between the two limit-sell prices against which the order was filled.
+### Protocol vs. Web Interface
 
-Price impact affects the execution price of a swap similarly but is a result of a different dynamic. When using an automated market maker, the relative value of one asset in terms of the other continuously shifts during the execution of a swap, leaving the final execution price somewhere between where the relative price started - and ended.
+**Note**: Swapping via web interfaces may introduce additional permission structures and differ in execution behavior from using the Baptswap protocol directly. For more details, see [What is Baptswap](../../).
 
-This dynamic affects every swap using the Baptswap protocol, as it is an inextricable part of AMM design.
+### Automated Market Maker (AMM) Model
 
-As the amount of liquidity available at different price points can vary, the price impact for a given swap size will change relative to the amount of liquidity available at any given point in price space. The greater the liquidity available at a given price, the lower the price impact for a given swap size. The lesser the liquidity available, the higher the price impact.
+Swaps on Baptswap are executed against a pool of liquidity, not on a first-in-first-out basis like traditional order book trades.
 
-Approximate (4) price impact is anticipated in real-time via the Baptswap interface, and warnings appear if unusually high price impact will occur during a swap. Anyone executing a swap will have the ability to assess the circumstances of price impact when needed.
+Liquidity providers earn fees proportional to their capital commitment. Learn more about Fees on Baptswap.
 
-### Slippage[​](https://docs.uniswap.org/concepts/protocol/swaps#slippage) <a href="#slippage" id="slippage"></a>
+## Key Considerations in Swapping
 
-The other relevant detail to consider when approaching swaps with the Baptswap protocol is slippage. Slippage is the term we use to describe alterations to a given price that could occur while a submitted transaction is pending.
+### Price Impact
 
-When transactions are submitted to Aptos, their order of execution is established by the amount of "gas" offered as a fee for executing each transaction. The higher the fee offered, the faster the transaction is executed. The transactions with a lower gas fee will remain pending for an indeterminate amount of time. During this time, the price environment in which the transaction will eventually be executed will change, as other swaps will be taking place.
+#### **Definition**
 
-Slippage tolerances establish a margin of change acceptable to the user beyond price impact. As long as the execution price is within the slippage range, e.g., %1, the transaction will be executed. If the execution price ends up outside of the accepted slippage range, the transaction will fail, and the swap will not occur.
+Price impact is the change in execution price due to the size of the market order against available liquidity.
 
-A comparable situation in a traditional market would be a market-buy order executed after a delay. One can know the expected price of a market-buy order when submitted, but much can change in the time between submission and execution.
+#### **AMM Dynamics**
 
-> **Note:** Some tokens traded on Baptswap, may have additional taxes added to their individual token through Baptswap's unique Fee-on-Transfer support. If trading one asset for another, where one or two of the tokens have additional fees, the transaction may fail if the slippage is set lower than the total percentage of the following added together:\
-> \
-> Price Impact %\
-> Individual Token Fees in % for X token\
-> Individual Token Fees in % for Y token\
-> Network Gas Fees
+The relative value of assets shifts continuously during a swap, affecting the final execution price.
 
-### Safety Checks[​](https://docs.uniswap.org/concepts/protocol/swaps#safety-checks) <a href="#safety-checks" id="safety-checks"></a>
+#### **Liquidity and Price Impact**
 
-Price impact and slippage can both change while a transaction is pending, which is why we have built numerous safety checks into the Baptswap protocol to protect end-users from drastic changes in the execution environment of their swap. Some of the most commonly encountered safety checks:
+The amount of liquidity at different price points influences the price impact. More liquidity equals lower price impact, and vice versa.
 
-* **Expired** : A transaction error that occurs if a swap is pending longer than a predetermined deadline. The deadline is a point in time after which the swap will be canceled to protect against unusually long pending periods and the changes in price that typically accompany the passage of time.
-* **INSUFFICIENT\_OUTPUT\_AMOUNT** : When a user submits a swap, the Baptswap interface will send an estimate of how much of the purchased token the user should expect to receive. If the anticipated output amount of a swap does not match the estimate within a certain margin of error (the slippage tolerance), the swap will be canceled. This attempts to protect the user from any drastic and unfavorable price changes while their transaction is pending.
+#### **Interface Display**
+
+The Baptswap interface provides real-time estimates of price impact and warnings for unusually high impacts.
+
+### Slippage
+
+#### **Definition**
+
+Slippage refers to price changes that occur while a transaction is pending.
+
+#### **Gas Fee and Execution Order**
+
+The amount of gas fee influences the transaction's execution speed. Lower gas fees can lead to longer pending times and potential price changes.
+
+#### **Slippage Tolerance**
+
+Users set a slippage range within which the transaction will execute. Transactions fail if the execution price falls outside this range.
+
+### Additional Token Fees
+
+Some tokens on Baptswap may have additional fees. Transactions may fail if the slippage is set too low to cover:
+
+* Price Impact Percentage
+* Individual Token Fees (for both X and Y tokens)
+* Network Gas Fees
+
+## Safety Checks in Baptswap Protocol
+
+### Common Safety Measures
+
+* **Expired Transaction**: Cancels a swap pending longer than a predetermined deadline to avoid price changes over extended periods.
+* **INSUFFICIENT\_OUTPUT\_AMOUNT**: Protects against drastic unfavorable price changes. If the output amount deviates significantly from the estimated amount (beyond slippage tolerance), the swap is canceled.
+
+## Conclusion
+
+By understanding price impact, slippage, and Baptswap’s safety checks, users can effectively navigate the swapping process. Remember to account for additional fees and network conditions to ensure successful transactions.
+
+## Support and Assistance
+
+Need help with launching or migrating your token to Baptswap? Connect with us on [Twitter](https://x.com/Baptswap) or [Telegram](https://t.me/baptlabs) for assistance.
 
 ***
 

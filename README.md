@@ -1,7 +1,3 @@
----
-description: Docs in the making, not final version
----
-
 # 👋 Introduction to Baptswap
 
 <figure><img src=".gitbook/assets/intro.png" alt=""><figcaption></figcaption></figure>

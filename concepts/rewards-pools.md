@@ -1,87 +1,61 @@
 # Rewards Pools
 
 {% hint style="warning" %}
-This page requires the reader to be familiar with the Fee-on-Transfer concept. Before reading, make sure to check out the [Fee-on-Transfer introduction](../fee-on-transfer/).
-
-_Diclaimer: The Protocol is not able to impact the performance of a Reward Pool. The return of a Reward Pool is decided by external factors outside the control of the Baptswap Protocol_
+This document assumes familiarity with the Fee-on-Transfer concept. For a foundational understanding, please refer to the [Fee-on-Transfer Introduction](../fee-on-transfer/) section before proceeding.
 {% endhint %}
 
-All tokens with Reward Fees enabled through Baptswap's Fee-on-Transfer support, offer volume based Reward Pools through the Earn page. Here holders have the options to stake their holdings to increase their positions.
+## Disclaimer
 
-For each pair including a token with Reward Fees, a Reward Pool is created. A token can potentially have multiple different Reward Pools, based on the amount of pairs tied to the token.&#x20;
+_The Protocol is not able to impact the performance of a Reward Pool. The return of a Reward Pool is decided by external factors outside the control of the Baptswap Protocol._
 
-The amount of Reward Fees set to a specific token, will follow all pairs including that token. However, each Reward Pool will only build up rewards for stakers from the specific pair tied to the pool.
+## Overview
+
+Baptswap facilitates Reward Pools for all tokens that enable Reward Fees via its Fee-on-Transfer feature. On the Earn page, token holders can stake their assets to augment their holdings.
+
+## Creation of Reward Pools
+
+A unique Reward Pool is established for each pair involving a token with Reward Fees. Thus, a single token may be associated with multiple Reward Pools corresponding to its different trading pairs. The set Reward Fees for a token apply across all its pairs, but each Reward Pool accrues rewards only from its specific pair.
+
+## Examples
 
 > **Example 1:**
 >
-> BAPT has x% Reward Fees.
+> If BAPT has x% Reward Fees and is part of BAPT-APT and BAPT-USDC pairs, separate Reward Pools for BAPT/APT and BAPT/USDC will be established.
 >
-> Both the BAPT-APT and BAPT-USDC pairs exists.
->
-> A Reward Pool for BAPT/APT is created, and a Reward Pool for BAPT/USDC is created.
->
-> Users can freely choose the amount of tokens to deposit into each pool.
+> Users can decide how many tokens to contribute to each pool.
 
 > **Scenario 1, Given Example 1:**
 >
-> Alice swaps APT into BAPT.
->
-> BAPT's Reward Fees are collected in the output token (here: BAPT), and sent to the BAPT-APT Rewards Pool.
+> If Alice swaps APT for BAPT, the Reward Fees in BAPT are directed to the BAPT-APT Reward Pool.
 
 > **Scenario 2, Given Example 1:**
 >
-> Alice swaps BAPT into USDC.
->
-> BAPT's Reward Fees are collected in the output token (here: USDC), and sent to the BAPT-USDC Reward Pool.
+> If Alice exchanges BAPT for USDC, the Reward Fees in USDC are allocated to the BAPT-USDC Reward Pool.
 
-### Pool Performance
-
-_**The Baptswap Protocol can not impact the perfomance of any Reward Pool.** The Earn Page is simply for external teams to add an additional feature for their token trading on Baptswap._
+## Pool Performance Factors
 
 The performance of a specific Reward Pool depends on the following factors:
 
-1. The pair's trading volume.
-2. The amount of Fees (%) allocated to Reward Fees.
-3. The amount of tokens staked in the Reward Pool.
+1. The trading volume of the pair.
+2. The percentage of fees allocated to Reward Fees.
+3. The total amount of tokens staked in the Reward Pool.
 
-Rewards are accumulated based on a holder's size of the pool. The bigger portion of the tokens a holder is staking, compared to the total staked amount in the pool, the higher rewards can be claimed by the holder.
+The stakers' rewards are proportional to their share in the pool; a larger stake equates to higher potential rewards.
 
-### Dual Reward System
+## Dual Reward System
 
-Each Reward Pool will accumulate both assets in the pair it is tied to. The result of this, is that holders who stake their tokens, will claim both the native staked token, and the opposite token in the pair.
-
-The ratio between the rewards accumulated will depend on the pair's trading volume each direction of the swap. If a pair has more trading volume from X to Y, holders will receive a higher amount of rewards in Y compared to X.
+Each Reward Pool accumulates both assets from its associated pair. Stakers can claim rewards in both the staked token and its pair counterpart. The reward ratio is influenced by the trading volumes in each swap direction.
 
 > Example 2:
 >
-> Alice deposits BAPT into the BAPT-APT pool.
->
-> When claiming rewards, Alice receives rewards in both BAPT and APT.
->
-> If the trading volume is higher for swap from APT to BAPT, than from BAPT to APT, Alice will receive a higher reward in BAPT.
+> If Alice stakes BAPT in the BAPT-APT pool, she will receive rewards in both BAPT and APT. The dominant trading direction determines the higher reward component.
 
-### Case 1: One Token in a Pair With Rewards&#x20;
+## Case 1: One Token in a Pair With Rewards&#x20;
 
-> A pair is created between BAPT and APT.
->
-> BAPT has x% Reward Fees enabled. Aptos does not have Reward Fees.
->
-> A Reward Pool BAPT-APT is created, and users can deposit BAPT to earn.
+> For a BAPT-APT pair where only BAPT has Reward Fees, a BAPT-APT Reward Pool is created for BAPT deposits.
 
-### Case 2: Both Tokens in Pair With Rewards
+## Case 2: Both Tokens in Pair With Rewards
 
-> A pair is created between BAPT and MOON.
+> In a BAPT-MOON pair with both tokens having Reward Fees (2% for BAPT, 4% for MOON), separate Reward Pools for BAPT-MOON (deposit BAPT) and MOON-BAPT (deposit MOON) are established.
 >
-> BAPT has 2% Reward Fees enabled. MOON has 4% Reward Fees enabled.
->
-> A Reward Pool BAPT-MOON is created, and users can deposit BAPT to earn.
->
-> A Reward Pool MOON-BAPT is created, and users can deposit MOON to earn.
->
->
->
-> For each swap, 6% Reward Fees are extracted from the transaction and distributed between both Reward Pools.&#x20;
->
-> 33.3% of the Fees are sent to the BAPT-MOON pool for BAPT holders.
->
-> 66.7% of the Fees are sent to the MOON-BAPT pool for MOON holders.
+> For each swap, 6% Reward Fees are distributed between both pools: 33.3% to BAPT-MOON and 66.7% to MOON-BAPT.
