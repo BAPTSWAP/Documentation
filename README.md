@@ -32,7 +32,7 @@ Baptswap is a Decentralized Exchange (DEX) operating on the Aptos Network, enabl
 
 ### Comparative Analysis
 
-For insights on how Baptswap stands out among other AMMs on Aptos, visit [Baptswap's Unique Features](introduction-to-baptswap/made-to-stand-out.md).
+For insights on how Baptswap stands out among other AMMs on Aptos, visit [Baptswap's Unique Features](general-information/introduction-to-baptswap/made-to-stand-out.md).
 
 ### Research and Development
 
