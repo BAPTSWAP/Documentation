@@ -4,7 +4,7 @@ description: How LP providing works
 
 # Liquidity Pools
 
-<figure><img src="../../.gitbook/assets/LiqPools.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/LiqPools.png" alt=""><figcaption></figcaption></figure>
 
 ## Introduction
 

@@ -2,38 +2,42 @@
 
 <figure><img src=".gitbook/assets/intro.png" alt=""><figcaption></figcaption></figure>
 
-### Overview
+## Overview
 
-The Baptswap protocol is a peer-to-peer system, more commonly known as a Decentralized Exchange (DEX), designed for exchanging cryptocurrencies on the [Aptos Network](https://aptosfoundation.org/). Baptswap is designed to be secure, and function without any trusted intermediaries who may selectively restrict access.
+Baptswap is a Decentralized Exchange (DEX) operating on the Aptos Network, enabling peer-to-peer cryptocurrency exchanges without the need for trusted intermediaries. It is unique in its support for fee-on-transfer solutions within a MOVE-based blockchain environment.
 
-Baptswap is the only protocol operating on MOVE-based blockchains allowing token owners to add fee-on-transfer solutions to their token swaps. Baptswap operates on the Aptos Network, meaning Aptos is the only MOVE-based blockchain to offer such “EVM-like” features, while maintaining the flexiblity and scalability of the MOVE-language.&#x20;
+## Key Features
 
-There are currently two versions of the Baptswap protocol. V1 and V2 are both open source, and are viewable [here](https://github.com/BAPTSWAP). V1 support has been discontinued with the upgrades to V2. All future upgrades will function in perpetuity alongside the V2, with 100% uptime, provided the continued existence of the Aptos Network.
+**Secure and Permissionless**: Designed for open access without restrictions based on geography, wealth, or status.
 
-### How does the Baptswap protocol compare to a typical market?[​](https://docs.uniswap.org/concepts/uniswap-protocol#how-does-the-uniswap-protocol-compare-to-a-typical-market) <a href="#how-does-the-uniswap-protocol-compare-to-a-typical-market" id="how-does-the-uniswap-protocol-compare-to-a-typical-market"></a>
+**Innovative Use of MOVE**: The first and only protocol on MOVE-based blockchains to offer EVM-like features with the flexibility of the MOVE language.
 
-To understand how the Baptswap protocol differs from a traditional exchange, it is helpful to first look at two subjects: how the Automated Market Maker design deviates from traditional central limit order book-based exchanges, and how permissionless systems depart from conventional permissioned systems.
+**Versioning**: Baptswap has evolved from V1 to V2, with V1 now discontinued. V2 operates with 100% uptime, dependent on the Aptos Network's continuity.
 
-#### Order Book VS AMM[​](https://docs.uniswap.org/concepts/uniswap-protocol#order-book-vs-amm) <a href="#order-book-vs-amm" id="order-book-vs-amm"></a>
+## Baptswap vs. Traditional Markets
 
-Most publicly accessible markets use a central limit [order book](https://www.investopedia.com/terms/o/order-book.asp) style of exchange, where buyers and sellers create orders organized by price level that are progressively filled as demand shifts. Anyone who has traded stocks through brokerage firms will be familiar with an order book system.
+### Automated Market Maker (AMM)
 
-The Baptswap protocol takes a different approach, using an Automated Market Maker (AMM), sometimes referred to as a Constant Function Market Maker, in place of an order book.
+* **Difference from Order Books**: Unlike central limit order book-based exchanges, Baptswap uses an AMM model. This replaces buy and sell orders with a liquidity pool of two assets, dynamically determining market rates as assets are traded.
+* **Direct Trading with the Pool**: Traders interact directly with the liquidity pool rather than individual orders.
+* **Research and Development**: The AMM model's advantages and disadvantages are the subject of ongoing research and innovation.
 
-At a very high level, an AMM replaces the buy and sell orders in an order book market with a liquidity pool of two assets, both valued relative to each other. As one asset is traded for the other, the relative prices of the two assets shift, and a new market rate for both is determined. In this dynamic, a buyer or seller trades directly with the pool, rather than with specific orders left by other parties. The advantages and disadvantages of Automated Market Makers versus their traditional order book counterparts are under active research by a growing number of parties.
+## Permissionless System
 
-#### Permissionless Systems[​](https://docs.uniswap.org/concepts/uniswap-protocol#permissionless-systems) <a href="#permissionless-systems" id="permissionless-systems"></a>
+* **Open Access**: Baptswap's design ensures unrestricted public use, allowing anyone to swap, provide liquidity, or create markets.
+* **Immutable Design**: The protocol operates without the possibility of pausing contracts, reversing trades, or altering its behavior.
+* **Governance and Fee Structure**: The upcoming Baptswap Governance will have the authority to modify swap fees, with limits set between 0% and 0.9% to prevent abuse.
 
-The second departure from traditional markets is the permissionless and immutable design of the Baptswap protocol. These design decisions were inspired by Uniswap Labs', on the Ethereum blockchain, commitment to the ideals of permissionless access and immutability as indispensable components of a future in which anyone in the world can access financial services without fear of discrimination or counter-party risk.
+## Additional Resources
 
-Permissionless design means that the protocol's services are entirely open for public use, with no ability to selectively restrict who can or cannot use them. Anyone can swap, provide liquidity, or create new markets at will. This is a departure from traditional financial services, which typically restrict access based on geography, wealth status, and age.
+### Comparative Analysis
 
-No party is able to pause the contracts, reverse trade execution, or otherwise change the behavior of the protocol in any way. It is worth noting that the coming Baptswap Governance will have the right (but no obligation) to change the amount of swap fees . However, this capability is known to all participants in advance, and to prevent abuse, the percentage is constrained between 0% and 0.9%.
+For insights on how Baptswap stands out among other AMMs on Aptos, visit [Baptswap's Unique Features](introduction-to-baptswap/made-to-stand-out.md).
 
-### Where can I find more information[​](https://docs.uniswap.org/concepts/uniswap-protocol#where-can-i-find-more-information)? <a href="#where-can-i-find-more-information" id="where-can-i-find-more-information"></a>
+### Research and Development
 
-For how Baptswap compare to other AMMs on Aptos, read more about its [unique features](introduction-to-baptswap/made-to-stand-out.md).
+To delve into the economics of AMMs, game theory, and optimization, keep an eye on our upcoming Research Page (Coming Soon).
 
-For research into the economics of AMMs, game theory, or optimization research, check out our research page once it is published.
+### V2 Enhancements
 
-For new features implemented in V2 that expand and refine the AMM design, see the [V2 Concepts](baptswap-v2/protocol-overview/) page.
+Discover the new features and improvements in V2 that refine the AMM design on the [V2 Concepts Page](https://chat.openai.com/c/71bdf716-0593-4300-be09-4f24e0c5fd4f).

@@ -1,6 +1,6 @@
 # How to Trade
 
-<figure><img src="../../.gitbook/assets/HowToTrade.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/HowToTrade.png" alt=""><figcaption></figcaption></figure>
 
 ## Introduction
 
@@ -10,15 +10,15 @@ Trading on Baptswap is designed to be straightforward and user-friendly, with a 
 
 ### Requirements
 
-1. **Aptos-Compatible Wallet**: Before trading, ensure you have an Aptos-compatible wallet. Learn how to get one [here](../../get-started-on-aptos/create-a-wallet.md).&#x20;
-2. **APT Tokens**: You'll also need APT tokens for trading. Instructions for acquiring APT tokens are available [here](../../get-started-on-aptos/get-aptos-coins.md).
+1. **Aptos-Compatible Wallet**: Before trading, ensure you have an Aptos-compatible wallet. Learn how to get one [here](../../../get-started-on-aptos/create-a-wallet.md).&#x20;
+2. **APT Tokens**: You'll also need APT tokens for trading. Instructions for acquiring APT tokens are available [here](../../../get-started-on-aptos/get-aptos-coins.md).
 
 ## Trading Process
 
 ### Accessing the Exchange
 
 1. Navigate to the Baptswap exchange [here](https://baptswap.com/swap).
-2. Unlock your wallet by selecting "Connect" in the top-right corner. If you haven't connected your wallet yet, follow this [guide](../../get-started-on-aptos/connect-your-wallet-to-baptswap.md).
+2. Unlock your wallet by selecting "Connect" in the top-right corner. If you haven't connected your wallet yet, follow this [guide](../../../get-started-on-aptos/connect-your-wallet-to-baptswap.md).
 
 ### Executing a Trade
 

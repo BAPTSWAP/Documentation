@@ -1,6 +1,6 @@
-# Token Deployer Tool
+# 🚀 Token Deployer Tool
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 ## Creating Tokens on Aptos Made Simple
 
@@ -46,5 +46,5 @@ As of October 2023, **tokens created by other Token Deployer Tools on Aptos, may
 
 Note: These tokens can still be traded on Baptswap, but without the possibility to add additional fees, where they operate as normal zero-tax tokens.
 
-[Learn how to create your own token here.](../create-your-own-token.md)
+[Learn how to create your own token here.](../../create-your-own-token.md)
 {% endhint %}

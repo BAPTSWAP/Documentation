@@ -42,24 +42,24 @@ Familiarize yourself with the Baptswap platform, including its layout and variou
 
 Understand how to execute trades on Baptswap, including swapping tokens and understanding fees.
 
-{% content-ref url="../concepts/exchange/how-to-trade.md" %}
-[how-to-trade.md](../concepts/exchange/how-to-trade.md)
+{% content-ref url="../concepts/concepts/exchange/how-to-trade.md" %}
+[how-to-trade.md](../concepts/concepts/exchange/how-to-trade.md)
 {% endcontent-ref %}
 
 ### **Participating in Liquidity Pools**
 
 Dive into the process of providing liquidity on Baptswap and how to remove it when needed.
 
-{% content-ref url="../concepts/exchange/liquidity-pools.md" %}
-[liquidity-pools.md](../concepts/exchange/liquidity-pools.md)
+{% content-ref url="../concepts/concepts/exchange/liquidity-pools/" %}
+[liquidity-pools](../concepts/concepts/exchange/liquidity-pools/)
 {% endcontent-ref %}
 
 ### **Adding and Removing Liquidity**
 
 Learn about liquidity pools, how they work, and the benefits of participating in them.
 
-{% content-ref url="../concepts/exchange/how-to-add-remove-liquidity.md" %}
-[how-to-add-remove-liquidity.md](../concepts/exchange/how-to-add-remove-liquidity.md)
+{% content-ref url="../concepts/concepts/exchange/liquidity-pools/how-to-add-remove-liquidity.md" %}
+[how-to-add-remove-liquidity.md](../concepts/concepts/exchange/liquidity-pools/how-to-add-remove-liquidity.md)
 {% endcontent-ref %}
 
 ## Support and Assistance

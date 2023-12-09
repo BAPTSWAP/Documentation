@@ -1,6 +1,6 @@
 # How to Add/Remove Liquidity
 
-<figure><img src="../../.gitbook/assets/HowToAddRemoveLP.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/HowToAddRemoveLP.png" alt=""><figcaption></figcaption></figure>
 
 ## Introduction
 
@@ -16,7 +16,7 @@ To add liquidity, you must stake two tokens in a pair. The amount you can add is
 
 1. **Select a Token Pair**: Currently, Baptswap supports adding liquidity for specific pairs, such as BAPT/APT.
 2. **Commit Your Tokens**: Decide on the amount of each token you want to stake. Remember, the pair's liquidity limit is set by the lesser value of the two tokens.
-3. **Exchange Tokens If Necessary**: If you don't have the required tokens, you can acquire them through trading. Refer to our guide on [How to Trade on Baptswap](how-to-trade.md) for assistance.
+3. **Exchange Tokens If Necessary**: If you don't have the required tokens, you can acquire them through trading. Refer to our guide on [How to Trade on Baptswap](../how-to-trade.md) for assistance.
 4. **Navigate to the Liquidity Page**: Access the [Liquidity page on Baptswap](https://baptswap.com/pools) to begin the process of adding liquidity.
 5. **Receive LP Tokens**: Upon adding liquidity, you'll receive LP Tokens, which represent your share in the pool and entitle you to a portion of the trading fees generated from that pair.
 

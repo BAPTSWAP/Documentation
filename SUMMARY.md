@@ -10,14 +10,15 @@
 
 ## Concepts
 
-* [🔄 Exchange](concepts/exchange/README.md)
-  * [How to Trade](concepts/exchange/how-to-trade.md)
-  * [Liquidity Pools](concepts/exchange/liquidity-pools.md)
-    * [How to Add/Remove Liquidity](concepts/exchange/how-to-add-remove-liquidity.md)
-* [💸 Fee-on-Transfer](fee-on-transfer/README.md)
-  * [Fee-on-Transfer Glossary](fee-on-transfer/fee-on-transfer-glossary.md)
-* [Rewards Pools](concepts/rewards-pools.md)
-* [Token Deployer Tool](concepts/token-deployer-tool.md)
+* [🧬 Concepts](concepts/concepts/README.md)
+  * [🔄 Exchange](concepts/concepts/exchange/README.md)
+    * [How to Trade](concepts/concepts/exchange/how-to-trade.md)
+    * [Liquidity Pools](concepts/concepts/exchange/liquidity-pools/README.md)
+      * [How to Add/Remove Liquidity](concepts/concepts/exchange/liquidity-pools/how-to-add-remove-liquidity.md)
+  * [💸 Fee-on-Transfer](concepts/concepts/fee-on-transfer/README.md)
+    * [Fee-on-Transfer Glossary](concepts/concepts/fee-on-transfer/fee-on-transfer-glossary.md)
+  * [🥩 Rewards Pools](concepts/concepts/rewards-pools.md)
+  * [🚀 Token Deployer Tool](concepts/concepts/token-deployer-tool.md)
 * [Analytics](concepts/analytics.md)
 
 ## Help

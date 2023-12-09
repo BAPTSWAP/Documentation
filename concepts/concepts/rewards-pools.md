@@ -1,7 +1,7 @@
-# Rewards Pools
+# 🥩 Rewards Pools
 
 {% hint style="warning" %}
-This document assumes familiarity with the Fee-on-Transfer concept. For a foundational understanding, please refer to the [Fee-on-Transfer Introduction](../fee-on-transfer/) section before proceeding.
+This document assumes familiarity with the Fee-on-Transfer concept. For a foundational understanding, please refer to the [Fee-on-Transfer Introduction](fee-on-transfer/) section before proceeding.
 {% endhint %}
 
 ## Disclaimer

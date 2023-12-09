@@ -1,6 +1,6 @@
 # 🔄 Exchange
 
-<figure><img src="../../.gitbook/assets/TokenSwaps.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/TokenSwaps.png" alt=""><figcaption></figcaption></figure>
 
 ## Introduction
 
@@ -15,7 +15,7 @@ Baptswap facilitates seamless swaps on the Aptos Network, allowing users to trad
 
 ### Protocol vs. Web Interface
 
-**Note**: Swapping via web interfaces may introduce additional permission structures and differ in execution behavior from using the Baptswap protocol directly. For more details, see [What is Baptswap](../../).
+**Note**: Swapping via web interfaces may introduce additional permission structures and differ in execution behavior from using the Baptswap protocol directly. For more details, see [What is Baptswap](../../../).
 
 ### Automated Market Maker (AMM) Model
 

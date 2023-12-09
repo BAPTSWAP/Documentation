@@ -22,7 +22,7 @@ Many tokens in the DeFi landscape of the top blockchains, have an inherent trans
 
 Baptswap, with its forward-thinking design, recognizes the potential and demand for such tokens and has integrated native support for them. This means that when such tokens are traded, Baptswap's underlying mechanics seamlessly account for the fee, and allocates them to the different destinations set by each individual team for their token.
 
-> **Note:** Read more about how Baptswap lets teams tailor their own fee structure for individual tokens, see the [Fee-on-Transfer](../fee-on-transfer/) page.
+> **Note:** Read more about how Baptswap lets teams tailor their own fee structure for individual tokens, see the [Fee-on-Transfer](../concepts/concepts/fee-on-transfer/) page.
 
 ### More Benefitial for Liqudity Providers
 
@@ -32,7 +32,7 @@ Each team have the option to allocate up to 15% of their trading volume to their
 
 Tokens with LP fees implemented can therefore give up to 76.5x greater return for LP Providers, compared to other exchanges on Aptos!
 
-[Read more on how Liquidity Pools work on Baptswap.](../concepts/exchange/liquidity-pools.md)
+[Read more on how Liquidity Pools work on Baptswap.](../concepts/concepts/exchange/liquidity-pools/)
 
 ### Benefits over Traditional AMMs:
 
