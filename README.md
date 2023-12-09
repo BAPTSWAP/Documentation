@@ -32,12 +32,12 @@ Baptswap is a Decentralized Exchange (DEX) operating on the Aptos Network, enabl
 
 ### Comparative Analysis
 
-For insights on how Baptswap stands out among other AMMs on Aptos, visit [Baptswap's Unique Features](general-information/introduction-to-baptswap/made-to-stand-out.md).
+For insights on how Baptswap stands out among other AMMs on Aptos, visit [Baptswap's Unique Features](introduction-to-baptswap/made-to-stand-out.md).
+
+### V2 Enhancements
+
+Discover the new features and improvements in V2 that refine the AMM design on the [V2 Concepts Page](concepts/concepts/).
 
 ### Research and Development
 
 To delve into the economics of AMMs, game theory, and optimization, keep an eye on our upcoming Research Page (Coming Soon).
-
-### V2 Enhancements
-
-Discover the new features and improvements in V2 that refine the AMM design on the [V2 Concepts Page](https://chat.openai.com/c/71bdf716-0593-4300-be09-4f24e0c5fd4f).
