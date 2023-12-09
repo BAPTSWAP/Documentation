@@ -1,6 +1,6 @@
 # How to Add/Remove Liquidity
 
-<figure><img src="../../../../.gitbook/assets/HowToAddRemoveLP.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/HowToAddRemoveLP (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Introduction
 

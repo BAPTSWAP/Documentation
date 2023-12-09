@@ -17,7 +17,7 @@
       * [How to Add/Remove Liquidity](concepts/concepts/exchange/liquidity-pools/how-to-add-remove-liquidity.md)
   * [💸 Fee-on-Transfer](concepts/concepts/fee-on-transfer/README.md)
     * [Fee-on-Transfer Glossary](concepts/concepts/fee-on-transfer/fee-on-transfer-glossary.md)
-  * [🥩 Rewards Pools](concepts/concepts/rewards-pools.md)
+  * [🥩 Reward Pools](concepts/concepts/reward-pools.md)
   * [🚀 Token Deployer Tool](concepts/concepts/token-deployer-tool.md)
 * [Analytics](concepts/analytics.md)
 

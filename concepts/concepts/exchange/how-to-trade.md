@@ -1,6 +1,6 @@
 # How to Trade
 
-<figure><img src="../../../.gitbook/assets/HowToTrade.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/HowToTrade (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Introduction
 
