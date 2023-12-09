@@ -4,7 +4,7 @@ description: How LP providing works
 
 # Liquidity Pools
 
-<figure><img src="../../.gitbook/assets/LiqPools.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/LiqPools.png" alt=""><figcaption></figcaption></figure>
 
 Liquidity pool tokens (sometimes known as liquidity provider tokens) are given to users who provide liquidity in liquidity pools. These tokens act as a receipt, allowing you to claim your original stake and interest earned.
 

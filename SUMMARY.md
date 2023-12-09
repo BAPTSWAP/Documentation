@@ -2,8 +2,6 @@
 
 * [👋 Introduction to Baptswap](README.md)
   * [Made to Stand Out](introduction-to-baptswap/made-to-stand-out.md)
-* [💸 Fee-on-Transfer](fee-on-transfer/README.md)
-  * [Fee-on-Transfer Glossary](fee-on-transfer/fee-on-transfer-glossary.md)
 * [Get Started on Aptos](get-started-on-aptos/README.md)
   * [Create a Wallet](get-started-on-aptos/create-a-wallet.md)
   * [Get Aptos Coins](get-started-on-aptos/get-aptos-coins.md)
@@ -15,11 +13,14 @@
 * [🔄 Exchange](concepts/exchange/README.md)
   * [Token Swaps](concepts/exchange/token-swaps.md)
   * [How to Trade](concepts/exchange/how-to-trade.md)
-  * [Liquidity Pools](concepts/exchange/liquidity-pools.md)
-  * [How to Add/Remove Liquidity](concepts/exchange/how-to-add-remove-liquidity.md)
-* [Rewards Pools](concepts/rewards-pools.md)
+  * [Liquidity Pools](concepts/exchange/liquidity-pools/README.md)
+    * [How to Add/Remove Liquidity](concepts/exchange/liquidity-pools/how-to-add-remove-liquidity.md)
+* [💸 Fee-on-Transfer](concepts/fee-on-transfer/README.md)
+  * [Fee-on-Transfer Glossary](concepts/fee-on-transfer/fee-on-transfer-glossary.md)
 * [Analytics](concepts/analytics.md)
 * [Token Deployer Tool](concepts/token-deployer-tool.md)
+* [Rewards Pools](concepts/rewards-pools.md)
+* [Page 1](concepts/page-1.md)
 
 ## Help
 
