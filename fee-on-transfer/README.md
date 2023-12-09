@@ -11,7 +11,7 @@ As of October 2023, **tokens created by other Token Deployer Tools on Aptos,** *
 
 Note: These tokens can still be traded on Baptswap, but without the possibility to add additional fees, where they operate as normal zero-tax tokens.
 
-[Learn how to create your own token here.](../../create-your-own-token.md)
+[Learn how to create your own token here.](../create-your-own-token.md)
 {% endhint %}
 
 ## **Token Fee Structure in Baptswap**

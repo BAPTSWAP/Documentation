@@ -1,6 +1,6 @@
 # How to Add/Remove Liquidity
 
-<figure><img src="../../../.gitbook/assets/HowToAddRemoveLP.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/HowToAddRemoveLP.png" alt=""><figcaption></figcaption></figure>
 
 Like most decentralized exchanges, Liquidity is central to how Baptswap's Exchange works. You can add liquidity for any token pair by staking both through the Liquidity page (For now, only BAPT/APT).
 
