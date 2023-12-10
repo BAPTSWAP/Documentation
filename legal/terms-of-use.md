@@ -4,7 +4,7 @@ description: 'Last Updated: March 14th 2023'
 
 # Terms of Use
 
-Welcome, and thank you for your interest in BaptSwap (“Bapt Labs ” “we,” or “us”) and our website at [https://BaptSwap.com](https://baptswap.com/) (the “Site”). These Terms of Use are a legally binding contract between you and Bapt Labs regarding your use of the Site. Please read the following terms carefully before using the Site. By using the Site, you acknowledge that you have read, understood, and agree to be bound by the following terms and conditions
+Welcome, and thank you for your interest in BaptSwap (“BAPT Labs, “our” “we,” or “us”) and our website at [https://BaptSwap.com](https://baptswap.com/) (the “Site”). These Terms of Use are a legally binding contract between you and Bapt Labs regarding your use of the Site. Please read the following terms carefully before using the Site. By using the Site, you acknowledge that you have read, understood, and agree to be bound by the following terms and conditions
 
 ## Eligibility
 
