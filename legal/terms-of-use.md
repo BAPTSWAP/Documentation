@@ -31,11 +31,11 @@ When you use the Interface, the only information we collect from you is your blo
 
 We use the information we collect to detect, prevent, and mitigate financial crime and other illicit or harmful activities on the Interface. For these purposes, we may share the information we collect with blockchain analytics providers. We share information with these service providers only so that they can help us promote the safety, security, and integrity of the Interface.
 
-Please note that when you use the Interface, you are interacting with Aptos or another public blockchain, which by nature may provide transparency into your transactions. Bapt Labs does not control and is not responsible for any information you make public on blockchains by taking actions through the Interface.&#x20;
+Please note that when you use the Interface, you are interacting with Aptos or another public blockchain, which by nature may provide transparency into your transactions. Baptswap does not control and is not responsible for any information you make public on blockchains by taking actions through the Interface.&#x20;
 
 ## Limited License
 
-Subject to these Terms, Bapt Labs grants you a limited, revocable license to access and use the Site solely for non-commercial purposes to learn more about Bapt Labs products and services. No other use of the Site is authorized.
+Subject to these Terms, Baptswap grants you a limited, revocable license to access and use the Site solely for non-commercial purposes to learn more about Bapt Labs products and services. No other use of the Site is authorized.
 
 ## Restrictions
 
@@ -43,11 +43,7 @@ You must comply with all applicable laws when using the Site. Except as may be e
 
 ## Ownership
 
-The Site is owned and operated by Bapt Labs. We retain all right, title, and interest in and to the Site and Site Content and any logos, or service marks displayed on the Site or in Site Content (“Marks”). Except as expressly authorized by Bapt Labs you may not make use of the Site, Site Content, and Marks.
-
-## Not Registered with the SEC or Any Other Agency
-
-We are not registered with the U.S. Securities and Exchange Commission as a national securities exchange or in any other capacity. You understand and acknowledge that we do not broker trading orders on your behalf. We also do not facilitate the execution or settlement of your trades, which occur entirely on public distributed blockchains like Ethereum. As a result, we do not (and cannot) guarantee market best pricing or best execution through our Products or when using our Auto Routing feature, which routes trades across liquidity pools on the Protocol only. Any references in a Product to "best price" does not constitute a representation or warranty about pricing available through such Product, on the Protocol, or elsewhere.
+The Site is owned and operated by Baptswap. We retain all right, title, and interest in and to the Site and Site Content and any logos, or service marks displayed on the Site or in Site Content (“Marks”). Except as expressly authorized by Baptswap you may not make use of the Site, Site Content, and Marks.
 
 ## Links and Third Party Content
 
@@ -61,13 +57,13 @@ YOUR USE OF THE SITE AND SITE CONTENT IS AT YOUR SOLE RISK. THE SITE AND SITE CO
 
 ## Limitation of Liability
 
-BAPT LABSWILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES, INCLUDING BUT NOT LIMITED TO, DAMAGES FOR LOSS OF PROFITS, GOODWILL, USE, DATA OR OTHER INTANGIBLE LOSSES (EVEN IF BAPT LABS HAS BEEN ADVISED OF THE POSSIBILITY OF THESE DAMAGES), RESULTING FROM YOUR USE OF THE SITE AND SITE CONTENT. UNDER NO CIRCUMSTANCES WILL BAPT LABS'S TOTAL LIABILITY OF ALL KINDS ARISING OUT OF OR RELATED TO YOUR USE OF THE SITE OR SITE CONTENT (INCLUDING BUT NOT LIMITED TO WARRANTY CLAIMS), REGARDLESS OF THE FORUM AND REGARDLESS OF WHETHER ANY ACTION OR CLAIM IS BASED ON CONTRACT, TORT, OR OTHERWISE, EXCEED $50. BECAUSE SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU.
+BAPTSWAP WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES, INCLUDING BUT NOT LIMITED TO, DAMAGES FOR LOSS OF PROFITS, GOODWILL, USE, DATA OR OTHER INTANGIBLE LOSSES (EVEN IF BAPT LABS HAS BEEN ADVISED OF THE POSSIBILITY OF THESE DAMAGES), RESULTING FROM YOUR USE OF THE SITE AND SITE CONTENT. UNDER NO CIRCUMSTANCES WILL BAPT LABS'S TOTAL LIABILITY OF ALL KINDS ARISING OUT OF OR RELATED TO YOUR USE OF THE SITE OR SITE CONTENT (INCLUDING BUT NOT LIMITED TO WARRANTY CLAIMS), REGARDLESS OF THE FORUM AND REGARDLESS OF WHETHER ANY ACTION OR CLAIM IS BASED ON CONTRACT, TORT, OR OTHERWISE, EXCEED $50. BECAUSE SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU.
 
 EACH PROVISION OF THESE TERMS THAT PROVIDES FOR A LIMITATION OF LIABILITY, DISCLAIMER OF WARRANTIES, OR EXCLUSION OF DAMAGES IS INTENDED TO AND DOES ALLOCATE THE RISKS BETWEEN THE PARTIES UNDER THESE TERMS. THIS ALLOCATION IS AN ESSENTIAL ELEMENT OF THE BASIS OF THE BARGAIN BETWEEN THE PARTIES. EACH OF THESE PROVISIONS IS SEVERABLE AND INDEPENDENT OF ALL OTHER PROVISIONS OF THESE TERMS. THE LIMITATIONS IN THIS SECTION WILL APPLY EVEN IF ANY LIMITED REMEDY FAILS OF ITS ESSENTIAL PURPOSE.
 
 ## Indemnity
 
-You will indemnify and hold BaptSwap and its partners, service providers, affiliates, officers, agents, and employees, harmless from any costs, damages, expenses, and liability caused by your use of the Site or Site Content, your violation of these Terms, or your violation of any rights of a third party through use of the Site or Site Content. We and our licensors reserve the right, at our own expense, to assume the exclusive defence and control of any matter otherwise subject to indemnification by you (without limiting your indemnification obligations with respect to that matter), and in that case, you agree to cooperate with our defence of those claims.
+You will indemnify and hold Baptswap and its partners, service providers, affiliates, officers, agents, and employees, harmless from any costs, damages, expenses, and liability caused by your use of the Site or Site Content, your violation of these Terms, or your violation of any rights of a third party through use of the Site or Site Content. We and our licensors reserve the right, at our own expense, to assume the exclusive defence and control of any matter otherwise subject to indemnification by you (without limiting your indemnification obligations with respect to that matter), and in that case, you agree to cooperate with our defence of those claims.
 
 ## Release
 
@@ -75,10 +71,10 @@ If you have a dispute with the Site, Site Content, or any products purchased thr
 
 ## General Terms
 
-These Terms, together with any other agreements expressly incorporated by reference into these Terms, are the entire and exclusive understanding and agreement between you and Bapt Labs regarding your use of the Site. You may not assign or transfer these Terms or your rights under these Terms, in whole or in part, by operation of law or otherwise, without our prior written consent. We may assign these Terms at any time without notice or consent. The failure to require performance of any provision will not affect our right to require performance at any other time after that, nor will a waiver by us of any breach or default of these Terms, or any provision of these Terms, be a waiver of any subsequent breach or default or a waiver of the provision itself. Use of section headers in these Terms is for convenience only and will not have any impact on the interpretation of any provision. Throughout these Terms the use of the word “including” means “including but not limited to”. If any part of these Terms is held to be invalid or unenforceable, the unenforceable part will be given effect to the greatest extent possible, and the remaining parts will remain in full force and effect.
+These Terms, together with any other agreements expressly incorporated by reference into these Terms, are the entire and exclusive understanding and agreement between you and Baptswap regarding your use of the Site. You may not assign or transfer these Terms or your rights under these Terms, in whole or in part, by operation of law or otherwise, without our prior written consent. We may assign these Terms at any time without notice or consent. The failure to require performance of any provision will not affect our right to require performance at any other time after that, nor will a waiver by us of any breach or default of these Terms, or any provision of these Terms, be a waiver of any subsequent breach or default or a waiver of the provision itself. Use of section headers in these Terms is for convenience only and will not have any impact on the interpretation of any provision. Throughout these Terms the use of the word “including” means “including but not limited to”. If any part of these Terms is held to be invalid or unenforceable, the unenforceable part will be given effect to the greatest extent possible, and the remaining parts will remain in full force and effect.
 
 ## Legal Notices
 
-These Terms are governed by the laws of the state of without regard to conflict of law principles. The exclusive jurisdiction and venue for any claims arising out of or related to these Terms or your use of the Site will lie in the state and federal courts located in undefined, undefined, and you irrevocably agree to submit to the jurisdiction of such courts. The failure of Bapt Labs to enforce any right or provision in these Terms will not constitute a waiver of such right or provision unless acknowledged and agreed to by Bapt Labs in writing. In the event that a court of competent jurisdiction finds any provision of these Terms to be illegal, invalid or unenforceable, the remaining provisions will remain in full force and effect.
+These Terms are governed by the laws of the state of without regard to conflict of law principles. The exclusive jurisdiction and venue for any claims arising out of or related to these Terms or your use of the Site will lie in the state and federal courts located in undefined, undefined, and you irrevocably agree to submit to the jurisdiction of such courts. The failure of Baptswap to enforce any right or provision in these Terms will not constitute a waiver of such right or provision unless acknowledged and agreed to by Baptswap in writing. In the event that a court of competent jurisdiction finds any provision of these Terms to be illegal, invalid or unenforceable, the remaining provisions will remain in full force and effect.
 
 > For questions or more details, contact support@baptswap.com
