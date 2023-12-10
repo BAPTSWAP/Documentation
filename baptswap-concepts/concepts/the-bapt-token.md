@@ -10,7 +10,7 @@ BAPT is the native token that powers the Baptswap ecosystem, a cornerstone for a
 
 Earn BAPT by providing LP and in the Reward Pools, or [buy it on the exchange](https://baptswap.com/swap), then explore its use cases:
 
-* Stake it in the [Pools](https://baptswap.com/staking-pools) to earn free tokens.
+* Stake it in the [Pools](https://baptswap.com/staking-pools) to earn free tokens from its trading volume.
 * Vote in governance proposals (future implementation).
 
 ## Token Info

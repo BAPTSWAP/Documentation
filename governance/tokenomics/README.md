@@ -22,7 +22,7 @@ The taxes of the BAPT token are 8% for buying, and 8% for selling. Taxes are pla
 * 2% Team Fees
 * 2% Liquidity Fees
 
-A graphical map will be released in the future, showing where BAPT will be allocated in the ecosystem from the generated fees on Baptswap.
+> _A graphical map will be released in the future, showing where BAPT will be allocated in the ecosystem from the generated fees on Baptswap._
 
 {% content-ref url="governance.md" %}
 [governance.md](governance.md)

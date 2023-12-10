@@ -6,7 +6,7 @@ description: Guidlines and downloadable assets like the BAPT logos SVG
 
 <figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 
-👇 [Jump to logo download](brand-and-logos.md#bapt-logo-downloads)
+👇 [Jump to logo download](brand-and-logos.md#baptswap-logo-downloads)
 
 ## Intro
 
@@ -62,6 +62,8 @@ Once you've read all the above, download the Baptswap and BAPT logos below.
 By downloading these files, you confirm that you will only use it to the extent permitted by the Terms detailed in this page.
 
 Download the official logos for Baptswap here.
+
+{% embed url="https://drive.google.com/file/d/1PfISjGVWehh2wRXb9OtuCRgP8VDeaaWL/view?usp=sharing" %}
 
 {% hint style="info" %}
 As of March 3rd 2023, the Baptswap logo will also be represented by the BAPT Wolf icon.
