@@ -1,16 +1,16 @@
 # Smart Contracts
 
-## Baptswap Contracts
+## Baptswap V2 Contracts
 
 ### Baptswap Swap
 
 * Mainnet
-* Testnet
 
-### Baptswap Router
 
-* Mainnet
-* Testnet
+
+* [Testnet](https://explorer.aptoslabs.com/account/0x5d1b1f3198e468b4f093a92fbd091209b0b045bcdd35ea6fbe82842e2a11740a/modules/code/admin?network=testnet)
+
+`0x5d1b1f3198e468b4f093a92fbd091209b0b045bcdd35ea6fbe82842e2a11740a`
 
 ## Token Deployer
 
