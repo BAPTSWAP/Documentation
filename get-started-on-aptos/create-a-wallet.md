@@ -2,7 +2,7 @@
 
 <figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
-To get started on your Baptswap journey on Aptos, the first thing you'll need is to set up a wallet that supports Aptos Chain. Wallets are available both on desktop computers and on smartphone devices. You'll need to choose the wallet that fits your needs best.
+To get started on your Baptswap journey on Aptos, the first thing you'll need is to set up a wallet that supports the Aptos chain. Wallets are available both on desktop computers and smartphone devices. Please find below a comparison between various Aptos compatible wallets, so you can choose the wallet that matches your preferences.
 
 {% hint style="danger" %}
 **When you're setting up a wallet, be sure to:**
@@ -295,7 +295,7 @@ To start using Baby Aptos Swap on Aptos, you will also need to have some $APT to
 {% endtabs %}
 
 {% hint style="danger" %}
-NEVER, in any situation, should you ever give someone your private key or recovery phrase ("seed phrase"). This will give someone complete access to your crypto!
+NEVER, in any situation, should you ever give someone your private key or recovery phrase ("seed phrase"). This will give that person complete control over your wallet and funds!
 
-The genuine Baptswap site and staff will never ask you to input your seed phrase.
+The Baptswap site and staff will never ask you to input your seed phrase or private key!
 {% endhint %}

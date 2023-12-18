@@ -8,9 +8,7 @@ Understanding the fee structure is crucial for participants in the Baptswap ecos
 
 ### Swapping Fee
 
-A 0.9% fee is applied to token swaps.
-
-This fee is distributed among liquidity providers in proportion to their contribution to the liquidity reserves. A portion of this fee is also allocated to the Baptswap Treasury as a Protocol Fee.
+A 0.9% fee is applied to token swaps. From this, 0.3% is distributed among liquidity providers in proportion to their contribution to the liquidity reserves. The remaining portion of this fee is also allocated to the Baptswap Treasury as a Protocol Fee.
 
 ### Fee Tiers
 
@@ -34,16 +32,10 @@ With each trade, the fees added to the pool increase the invariant (`token0_pool
 
 ### Current Protocol Fee
 
-Currently, the Protocol Fee is set at 0.60%.
+Currently, the Protocol Fee is set at 0.60% for pools with 0.90% Swapping Fees. The Protocol Fees goes to the Treasury, and is allocated for the growth of Baptswap.
 
 This fee may be subject to change, with the possibility of being reduced or turned off in the future.
 
-### Protocol Charge Calculation
-
-While the Protocol Fees do not affect the fee paid by traders, they do impact the amount received by liquidity providers.
-
-To avoid increasing gas costs for users, the charge is calculated when liquidity is added or removed, rather than on each swap.
-
 ## More Information
 
-Details on potential future changes to the Protocol Fee will be available in an upcoming blog post.
+Details on potential future changes to the Protocol Fee will be available in upcoming blog posts.

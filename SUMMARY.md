@@ -33,6 +33,7 @@
 
 ## Technical References
 
+* [Smart Contracts](technical-references/smart-contracts.md)
 * [Technical References](technical-references/technical-references/README.md)
   * [Protocol Overview](baptswap-v2/protocol-overview/README.md)
     * [How Baptswap Works](baptswap-v2/protocol-overview/how-baptswap-works.md)

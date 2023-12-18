@@ -8,7 +8,7 @@ There are multiple AMMs (Automated Market Makers) on the Aptos Network, each des
 
 But, what does this mean and why is it significant?
 
-### The Challenge with Aptos's Native Token Framework:
+### The Challenge with Aptos' Native Token Framework:
 
 On the Aptos Network, the way the token framework is architected inherently prevents the direct implementation of fee-on-transfer mechanics. This poses a challenge for many tokens in the DeFi space that would like to utilize a fee-on-transfer model for various purposes, such as rewarding holders, replenishing liquidity pools, or driving other decentralized functions.
 
@@ -24,11 +24,11 @@ Baptswap, with its forward-thinking design, recognizes the potential and demand 
 
 > **Note:** Read more about how Baptswap lets teams tailor their own fee structure for individual tokens, see the [Fee-on-Transfer](../concepts/concepts/fee-on-transfer/) page.
 
-### More Benefitial for Liqudity Providers
+### More Beneficial for Liqudity Providers
 
 Because of Baptswap's unique Fee-on-Transfer support, providing liquidity can potentially give greater returns than on any other AMM on Aptos.&#x20;
 
-Each team have the option to allocate up to 15% of their trading volume to their individual token fees. The team can decide to allocate a portion of the fees towards their LP pool, resulting in LP Providers potentially earning even more, in addition to the 0.3% on each trade!
+Each team has the option to allocate up to 15% of their trading volume to their individual token fees. The team can decide to allocate a portion of the fees towards their LP pool, resulting in LP Providers potentially earning even more, in addition to the 0.3% on each trade!
 
 Tokens with LP fees implemented can therefore give up to 76.5x greater return for LP Providers, compared to other exchanges on Aptos!
 
@@ -37,10 +37,10 @@ Tokens with LP fees implemented can therefore give up to 76.5x greater return fo
 ### Benefits over Traditional AMMs:
 
 1. **Inclusive Token Listing**: While other protocols might shy away or face challenges in integrating fee-on-transfer tokens, Baptswap allows these tokens to be part of the ecosystem, thus widening the spectrum of trading pairs and opportunities.
-2. **Reduced Impermanent Loss**: The native support for fee-on-transfer tokens means that the risks associated with price discrepancies due to token fees are minimized. Liquidity providers can be more confident about their contributions and potential returns.
+2. **Reduced Impermanent Loss**: The native support for fee-on-transfer tokens means that the risks associated with price discrepancies due to token fees are minimized. Liquidity providers can be more confident about their contributions and potential returns. Providing liquidity does not trigger fee-on-transfer to be extracted from the deposit.
 3. **Optimized Pricing Mechanism**: Since Baptswap's algorithm accounts for token transfer fees, traders experience more accurate pricing, leading to fairer trades and optimized slippage.
 4. **Enhanced User Experience**: By eliminating the complexities and potential pitfalls associated with trading fee-on-transfer tokens, users enjoy a smoother and more intuitive trading experience.
 
 {% hint style="success" %}
-While there are several AMMs in the Aptos ecosystem, Baptswap differentiates itself by being the first and only protocol to natively support fee-on-transfer tokens. This not only places Baptswap at the forefront of DeFi innovation but also creates a more inclusive and efficient marketplace for both traders and liquidity providers.
+While there are several AMMs in the Aptos ecosystem, Baptswap differentiates itself by being the first and only protocol to natively support fee-on-transfer tokens. This not only places Baptswap at the forefront of DeFi innovation but also creates a more inclusive and efficient platform for both traders and liquidity providers.
 {% endhint %}

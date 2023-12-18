@@ -22,9 +22,9 @@ Learn how to set up a wallet that works with the Aptos blockchain. This is your 
 [create-a-wallet.md](create-a-wallet.md)
 {% endcontent-ref %}
 
-### **Acquiring APT Tokens**
+### **Acquiring APT**
 
-Discover how to obtain APT tokens, which are essential for transactions on the Aptos network and Baptswap.
+Discover how to obtain the Aptos coin, which are essential for transactions on the Aptos network and Baptswap.
 
 {% content-ref url="get-aptos-coins.md" %}
 [get-aptos-coins.md](get-aptos-coins.md)
@@ -38,7 +38,11 @@ Familiarize yourself with the Baptswap platform, including its layout and variou
 [connect-your-wallet-to-baptswap.md](connect-your-wallet-to-baptswap.md)
 {% endcontent-ref %}
 
-### **Trading on Baptswap**
+***
+
+## **Concepts**
+
+**Trading on Baptswap**
 
 Understand how to execute trades on Baptswap, including swapping tokens and understanding fees.
 
