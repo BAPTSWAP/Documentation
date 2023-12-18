@@ -2,7 +2,9 @@
 
 ## Audit & Formal Verification
 
-> Report from Movebit coming soon
+### Movebit Report for Baptswap Contracts
+
+{% file src="../../.gitbook/assets/Movebit_Baptswap_contracts_report.pdf.pdf" %}
 
 ## Bug Bounty
 
