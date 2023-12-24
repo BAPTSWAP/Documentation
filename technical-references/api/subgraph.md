@@ -8,3 +8,5 @@ description: Indexing data from Baptswap contracts
 
 Tracks all data from Baptswap V2 Exchange data with price, volume, liquidity, ...
 
+* [https://gq.baptswap.com/](https://gq.baptswap.com/)
+
