@@ -51,6 +51,8 @@
 * [Tokenomics](governance/tokenomics/README.md)
   * [Governance](governance/tokenomics/governance.md)
 * [Token Integration Issues](baptswap-v2/token-integration-issues.md)
+* [API](technical-references/api/README.md)
+  * [Subgraph](technical-references/api/subgraph.md)
 
 ## Legal
 
