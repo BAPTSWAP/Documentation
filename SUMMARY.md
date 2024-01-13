@@ -47,12 +47,13 @@
   * [Advanced Topics](baptswap-v2/advanced-topics/README.md)
     * [Fee Structure on Baptswap](baptswap-v2/advanced-topics/fees.md)
     * [Understanding Returns](baptswap-v2/advanced-topics/understanding-returns.md)
+    * [Copy of Security](technical-references/technical-references/advanced-topics/copy-of-security.md)
 * [Tokenomics](governance/tokenomics/README.md)
   * [Governance](governance/tokenomics/governance.md)
 * [Token Integration Issues](baptswap-v2/token-integration-issues.md)
 * [API](technical-references/api/README.md)
   * [Subgraph](technical-references/api/subgraph.md)
-* [Security](technical-references/security.md)
+* [Security](baptswap-v2/advanced-topics/security.md)
 
 ## Legal
 

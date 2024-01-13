@@ -4,11 +4,11 @@
 
 ### Baptswap V2 Contract
 
-{% file src="../.gitbook/assets/Movebit_Baptswap_contracts_report.pdf.pdf" %}
+{% file src="../../.gitbook/assets/Movebit_Baptswap_contracts_report.pdf.pdf" %}
 
 ### Baptswap Token Deployer V1 Contract
 
-{% file src="../.gitbook/assets/Baptswap Smart Contract Audit Report.pdf" %}
+{% file src="../../.gitbook/assets/Baptswap Smart Contract Audit Report.pdf" %}
 
 ## Bug Bounty
 
