@@ -55,6 +55,10 @@ Note that tokens with LP on multiple exchanges will only support fee-on-transfer
 By adding LP on other exchanges, it can reduce the amount of fees your team can collect from the token's trading volume.
 {% endhint %}
 
+## Upload Logo to wallets and Baptswap
+
+For uploading the logo of your token so it natively displays on Aptos wallets and on Baptswap, follow this [guide](https://github.com/hippospace/aptos-coin-list/tree/main).
+
 ## Support and Assistance
 
 Need help with launching or migrating your token to Baptswap? Connect with us on [Twitter](https://x.com/Baptswap) or [Telegram](https://t.me/baptlabs) for assistance.
