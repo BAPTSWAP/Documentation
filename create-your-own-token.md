@@ -25,13 +25,12 @@ Creating a token on Baptswap is fast and easy. Simply navigate to Baptswap and c
 1. **Token Information**: Start by connecting your wallet to Baptswap and accessing the Token Deployer Tool. You'll need to define key parameters for your token:
    * Name (e.g., Moon Coin)
    * Symbol (e.g., MOON)
-   * Total Supply (e.g., 1,000,000)
+   * Total Supply (e.g., 1 000 000)
    * Decimals (Standard is 8)
-   * Monitor Supply (Default: true)
 2. **Token Deployment**: Execute two transactions:
    * Create a module for initializing the token.
    * Publish/Deploy the token.
-   * Note: There will be a nominal network fee on Aptos and a Protocol fee of 1 APT.
+   * Note: There will be a nominal network fee on Aptos and a Protocol fee of 1 APT, but the Protocol Fee is set to 0 APT for a limited time.
 3. **Admin Panel**: After deployment, manage your token and set fees through the Token Admin Panel.
 
 Congrats, you have now created your own token! To find more information about the token, and to set the token's fees, navigate to the Token Admin Panel.
