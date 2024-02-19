@@ -6,14 +6,11 @@ description: The core of Baptswap is the token, $BAPT.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-BAPT is the native token that powers the Baptswap ecosystem, a cornerstone for a new type of token trading on Aptos
-
-Earn BAPT by providing LP and in the Reward Pools, or [buy it on the exchange](https://baptswap.com/swap), then explore its use cases:
-
-* Stake it in the [Pools](https://baptswap.com/staking-pools) to earn free tokens from its trading volume.
-* Vote in governance proposals (future implementation).
+BAPT is the native token that powers the Baptswap ecosystem, a cornerstone for a new type of token launching on Aptos
 
 ## Token Info
+
+The BAPT token is not live yet, but here are some of the details for the future launch.
 
 ### Contract:
 
@@ -34,8 +31,6 @@ Aptos Mainnet: `0x::BAPT::BAPT`
 ### Max Supply:
 
 * 1,000,000,000.00
-
-But that's not all - there's much more on the horizon for BAPT, soon to be released!
 
 ## Further Details
 

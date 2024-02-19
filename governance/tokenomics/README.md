@@ -14,7 +14,7 @@ The BAPT token is the native token of Baptswap, capturing the value generated in
 
 ## Token Mechanics
 
-### Fees On Transfers (Taxes):
+### Fees On Transfers (Fees):
 
 The taxes of the BAPT token are 8% for buying, and 8% for selling. Taxes are planned to be reduced in the future. Below is the current breakdown:
 
