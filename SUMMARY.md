@@ -9,6 +9,7 @@
   * [Get Aptos Coins](get-started-on-aptos/get-aptos-coins.md)
   * [Connect Your Wallet to Baptswap](get-started-on-aptos/connect-your-wallet-to-baptswap.md)
 * [Create Your Own Token](create-your-own-token.md)
+* [Admin](general-information/admin.md)
 
 ## Baptswap Concepts
 
